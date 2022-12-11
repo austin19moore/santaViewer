@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <ImageView fitHeight="399.0" fitWidth="800.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../data/earth.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <Label layoutX="281.0" layoutY="30.0" text="Santa Tracker" textFill="#c60000">
+         <font>
+            <Font name="Calibri Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label fx:id="currActivity" alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="467.0" prefHeight="90.0" prefWidth="350.0" text="Label" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="currTime" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="232.0" layoutY="637.0" prefHeight="103.0" prefWidth="337.0" text="Last updated: " textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Calibri Bold" size="26.0" />
+         </font>
+      </Label>
+      <Circle fx:id="NicoleCircle" fill="#fa00ff" layoutX="20.0" layoutY="440.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="JaneCircle" fill="#ffab00" layoutX="20.0" layoutY="470.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="EmmetCircle" fill="#b200f8" layoutX="20.0" layoutY="500.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="KassandraCircle" fill="#0048ff" layoutX="20.0" layoutY="530.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="DiegoCircle" fill="#00ff51" layoutX="20.0" layoutY="560.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="LeonCircle" fill="#9a9a9a" layoutX="20.0" layoutY="590.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="RowdyCircle" fill="#007bff" layoutX="20.0" layoutY="620.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="LeannaCircle" fill="RED" layoutX="20.0" layoutY="650.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="38.0" layoutY="432.0" prefHeight="17.0" prefWidth="88.0" text="Maria">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="460.0" prefHeight="17.0" prefWidth="88.0" text="Nancy">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="492.0" prefHeight="17.0" prefWidth="88.0" text="Bob">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="522.0" prefHeight="17.0" prefWidth="88.0" text="Alexis">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="552.0" prefHeight="17.0" prefWidth="88.0" text="Dilllan">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="582.0" prefHeight="17.0" prefWidth="88.0" text="Greg">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="612.0" prefHeight="17.0" prefWidth="88.0" text="Shawn">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="642.0" prefHeight="17.0" prefWidth="88.0" text="Lily">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
